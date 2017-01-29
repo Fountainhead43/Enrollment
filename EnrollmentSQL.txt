@@ -32,7 +32,7 @@ CREATE TABLE Class (
 );
 
 CREATE TABLE Login (
-	UID smallint NOT NULL,
+	Username varchar(10) NOT NULL,
 	PWD varchar(10) NOT NULL,
 	PRIMARY KEY (UID,PWD)
 );
